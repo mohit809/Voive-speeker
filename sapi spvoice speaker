@@ -1,0 +1,4 @@
+speaks="good morning Mohit how are you"
+set speech=CreateObject("sapi.spvoice")
+speech.Rate= -3
+speech.speak speaks
